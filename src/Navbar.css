@@ -1,3 +1,8 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .navbar {
     background-color: black;
     color: white;

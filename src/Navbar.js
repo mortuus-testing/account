@@ -5,12 +5,13 @@ export default function Navbar() {
   return (
     <div className='navbar'>
         <div className='logo'>
-            React
+            React.
         </div>
         <navbar>
-            <a>About</a>
-            <a>Docs</a>
-            <a>Contact Me</a>
+            <a className='flex'>About</a>
+            <a className='flex'>Installation</a>
+            <a className='flex'>Docs</a>
+            <a className='flex'>Contact Me</a>
         </navbar>
     </div>
   )
